@@ -1,7 +1,8 @@
 package com.introduction;
 
 public interface Mahindra {
-    default void display(){
-        System.out.println("I'm a Mahindra interface");
-    }
+    void display();
+    //default void SameAsOtherInterfacedisplay(){
+    //    System.out.println("I'm a tata interface.");
+    //}
 }
