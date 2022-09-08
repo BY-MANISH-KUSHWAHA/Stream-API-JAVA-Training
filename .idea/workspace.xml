@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0001">
-      <change afterPath="$PROJECT_DIR$/src/com/introduction/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/introduction/Methods.java" afterDir="false" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/introduction/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/introduction/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/introduction/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/introduction/Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662608132763</updated>
-      <workItem from="1662608134912" duration="1613000" />
+      <workItem from="1662608134912" duration="3334000" />
     </task>
     <task id="LOCAL-00001" summary="Stream_API-Update-0001">
       <created>1662608168539</created>
@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662608168540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Stream_API-Update-0002">
+      <created>1662610477436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662610477437</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stream_API-Update-0001" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0001" />
+    <MESSAGE value="Stream_API-Update-0002" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0002" />
   </component>
 </project>
