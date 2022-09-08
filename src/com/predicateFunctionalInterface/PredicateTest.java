@@ -40,8 +40,8 @@ public class PredicateTest {
         Predicate<Person> predicate_ = p -> p.getAge()>18;
 
         boolean eligible_ = isPersonEligibleVoting(person_,18,(p,minAge)->{
-            return p.getAge()>minAge;
-        });
+            return p.getAge()>minAge; // call back function.(define function after calling --> called as call back function)
+        });// Function boolean call
 
         System.out.println("is Person Eligible for voting(Using BiPredicate): "+eligible_);
 
