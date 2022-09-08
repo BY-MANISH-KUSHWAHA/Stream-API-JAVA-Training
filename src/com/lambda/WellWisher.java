@@ -8,12 +8,14 @@ public class WellWisher {
 
     public static void main(String[] args) {
 
+        // For single line Code (Anonymous Function)
         sayHello(() -> System.out.println("Namaste"));
         sayHello(() -> System.out.println("Hello, How are you?"));
         sayHello(() -> System.out.println("Namashkar"));
 
 
-
+        //sayBye(() -> System.out.println("Namashkar"));
+        //  Erro => function not define for OverRide
 
         //Class Objects Oriented class
 /*        Language enlish = new English();
