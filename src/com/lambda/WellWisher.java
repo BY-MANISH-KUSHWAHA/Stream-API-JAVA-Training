@@ -6,6 +6,14 @@ public class WellWisher {
         language.wish();
     }
 
+    public static int someFunx(){
+        int a=10;
+        int b=11;
+        // where above to store.
+
+        return 10;// where its store.
+    }
+
     public static void main(String[] args) {
 
         // For single line Code (Anonymous Function)
