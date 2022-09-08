@@ -3,11 +3,15 @@ package com.predicateFunctionalInterface;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
 public class PredicateTest {
     static boolean isPersonEligibleVoting(Person person, Predicate<Person> predicate){
         return predicate.test(person);
+    }
+    static boolean isPersonEligibleVoting(Person person, Integer minAge, BiPredicate<Person,Integer>predicate){
+        return predicate.test(person,minAge);
     }
 
     static ArrayList<Boolean> isPersonsEligibleVoting(ArrayList<Person> persons, Predicate<Person> predicate){
@@ -30,6 +34,19 @@ public class PredicateTest {
     }
 
     public static void main(String[] args) {
+        // predicate Test
+        Person person_ = new Person("Manish",18,"India");
+
+        Predicate<Person> predicate_ = p -> p.getAge()>18;
+
+        boolean eligible_ = isPersonEligibleVoting(person_,18,(p,minAge)->{
+            return p.getAge()>minAge;
+        });
+
+        System.out.println("is Person Eligible for voting(Using BiPredicate): "+eligible_);
+
+
+
         Person person = new Person("Manish",18,"India");
 
         // Predicate Test
