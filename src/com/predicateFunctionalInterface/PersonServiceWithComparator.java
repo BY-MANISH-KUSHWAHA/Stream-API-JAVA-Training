@@ -1,6 +1,8 @@
-package com.ComparatorAnonymous;
-import java.util.*;
-public class PersonService {
+package com.predicateFunctionalInterface;
+
+import java.util.Collections;
+import java.util.List;
+public class PersonServiceWithComparator {
     public static List<Person> getPerson(List<Person> persons){
         // Anonymous Class Approach, Comparator is anonymous class
 /*        Collections.sort(persons,new Comparator<Person>(){

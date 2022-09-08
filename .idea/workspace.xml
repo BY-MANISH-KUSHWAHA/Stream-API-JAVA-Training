@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0009">
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0010">
+      <change afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/PersonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/PersonServiceWithComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/PredicateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ComparatorAnonymous/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ComparatorAnonymous/PersonService.java" afterDir="false" />
     </list>
@@ -25,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ET8HiXMMqcr9uLnBXI4i3obTnQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,11 +41,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/manishkushwaha/IdeaProjects/Stream_API/src/com/predicateFunctionalInterface",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/predicateFunctionalInterface" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662608132763</updated>
-      <workItem from="1662608134912" duration="11951000" />
+      <workItem from="1662608134912" duration="14855000" />
     </task>
     <task id="LOCAL-00001" summary="Stream_API-Update-0001">
       <created>1662608168539</created>
@@ -120,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662627115314</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Stream_API-Update-0010">
+      <created>1662627401956</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662627401956</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +166,7 @@
     <MESSAGE value="Stream_API-Update-0007" />
     <MESSAGE value="Stream_API-Update-0008" />
     <MESSAGE value="Stream_API-Update-0009" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0009" />
+    <MESSAGE value="Stream_API-Update-0010" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0010" />
   </component>
 </project>
