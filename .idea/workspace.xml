@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0011">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/PredicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/PredicateTest.java" afterDir="false" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0013">
+      <change afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Supplierget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662608132763</updated>
-      <workItem from="1662608134912" duration="16029000" />
+      <workItem from="1662608134912" duration="16861000" />
     </task>
     <task id="LOCAL-00001" summary="Stream_API-Update-0001">
       <created>1662608168539</created>
@@ -142,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662630330848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Stream_API-Update-0012">
+      <created>1662632210453</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632210453</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Stream_API-Update-0013">
+      <created>1662632392961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632392961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,8 @@
     <MESSAGE value="Stream_API-Update-0009" />
     <MESSAGE value="Stream_API-Update-0010" />
     <MESSAGE value="Stream_API-Update-0011" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0011" />
+    <MESSAGE value="Stream_API-Update-0012" />
+    <MESSAGE value="Stream_API-Update-0013" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0013" />
   </component>
 </project>
