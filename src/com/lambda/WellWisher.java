@@ -9,9 +9,9 @@ public class WellWisher {
     public static int someFunx(){
         int a=10;
         int b=11;
-        // where above to store.
+        // where above two stored.
 
-        return 10;// where its store.
+        return 10;// where it will be store.
     }
 
     public static void main(String[] args) {
