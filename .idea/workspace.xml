@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0003">
-      <change afterPath="$PROJECT_DIR$/src/com/introduction/FunctionInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lambda/English.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lambda/Hindi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lambda/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lambda/Marati.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lambda/WellWisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/introduction/Mahindra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/introduction/Mahindra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/introduction/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/introduction/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/introduction/Tata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/introduction/Tata.java" afterDir="false" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0004">
+      <change beforePath="$PROJECT_DIR$/src/com/lambda/WellWisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambda/WellWisher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662608132763</updated>
-      <workItem from="1662608134912" duration="7602000" />
+      <workItem from="1662608134912" duration="8053000" />
     </task>
     <task id="LOCAL-00001" summary="Stream_API-Update-0001">
       <created>1662608168539</created>
@@ -86,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662612595237</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stream_API-Update-0004">
+      <created>1662618594064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662618594066</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +105,7 @@
     <MESSAGE value="Stream_API-Update-0001" />
     <MESSAGE value="Stream_API-Update-0002" />
     <MESSAGE value="Stream_API-Update-0003" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0003" />
+    <MESSAGE value="Stream_API-Update-0004" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0004" />
   </component>
 </project>

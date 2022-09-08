@@ -7,6 +7,15 @@ public class WellWisher {
     }
 
     public static void main(String[] args) {
+
+        sayHello(() -> System.out.println("Namaste"));
+        sayHello(() -> System.out.println("Hello, How are you?"));
+        sayHello(() -> System.out.println("Namashkar"));
+
+
+
+
+        //Class Objects Oriented class
 /*        Language enlish = new English();
         Language hindi = new Hindi();
         Language marati = new Marati();
@@ -16,6 +25,8 @@ public class WellWisher {
         sayHello(marati);
 
  */
+/*
+        // Anonymous Class Object
         sayHello(new Language() {
             @Override
             public void wish() {
@@ -36,6 +47,12 @@ public class WellWisher {
                 System.out.println("Namaste");
             }
         });
+
+ */
+
+
+
+
     }
 
 }
