@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0014">
-      <change afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Consumeraccept.java" afterDir="false" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0015">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Supplierget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Supplierget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/manishkushwaha/IdeaProjects/Stream_API/src/com/predicateFunctionalInterface",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/manishkushwaha/IdeaProjects/Stream_API/src/com/predicateFunctionalInterface&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/predicateFunctionalInterface" />
@@ -57,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662608132763</updated>
-      <workItem from="1662608134912" duration="19028000" />
+      <workItem from="1662608134912" duration="19961000" />
+      <workItem from="1662691878936" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="Stream_API-Update-0001">
       <created>1662608168539</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662633012595</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Stream_API-Update-0015">
+      <created>1662635938195</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662635938195</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +202,7 @@
     <MESSAGE value="Stream_API-Update-0012" />
     <MESSAGE value="Stream_API-Update-0013" />
     <MESSAGE value="Stream_API-Update-0014" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0014" />
+    <MESSAGE value="Stream_API-Update-0015" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0015" />
   </component>
 </project>
