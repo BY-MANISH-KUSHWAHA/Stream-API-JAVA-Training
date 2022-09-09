@@ -34,10 +34,13 @@ public class Comparator {
             System.out.println(s1);
             System.out.println(s2);
             Collections.shuffle(s1,new Random());
-            System.out.println(TwoStringListEqual_without_Sorting(s1,s2));
+            //System.out.println(TwoStringListEqual_without_Sorting(s1,s2));
             index++;
 
         }
+        System.out.println(index+" Trail");
+        System.out.println(s1);
+        System.out.println(s2);
 
         //while()Collections.sort(persons, (o1, o2) -> o1.getName().compareTo(o2.getName()));
 
