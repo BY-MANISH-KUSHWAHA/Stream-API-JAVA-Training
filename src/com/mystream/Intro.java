@@ -1,5 +1,7 @@
 package com.mystream;
 
+import com.predicateFunctionalInterface.Person;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
@@ -19,6 +21,8 @@ public class Intro {
 
         Stream<String> checkStreamList = list.stream();
         checkStreamList.forEach(s-> System.out.println(s));
+
+
 
 
     }
