@@ -22,6 +22,12 @@ public class OptionalStream {
         Person p1 = check.getPerson(32);
 
         System.out.println(p1);
+        try {
+            p1.getAge();
+        }
+        catch(Exception e) {
+            System.out.println("No Person found without Optional");
+        }
         // Add some Person with some ID
         addPerson(32,new Person("Manish"));
 
@@ -30,16 +36,9 @@ public class OptionalStream {
 
         System.out.println(p2);
 
+        System.out.println("------- Using Optional Class ---------");
         // To overcome the Null point Exception:
         Optional<Person> p3 = Optional.ofNullable(check.getPerson(2));
-
-
-        try {
-            p1.getAge();
-        }
-        catch(Exception e) {
-            System.out.println("No Person found without Optional");
-        }
 
         if(p3.isPresent()){
             System.out.println(p3);
