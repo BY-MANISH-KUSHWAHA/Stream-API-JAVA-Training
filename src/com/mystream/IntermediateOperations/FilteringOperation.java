@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FilteringOperation {
+    // Intermidate just take data and process data and just pass another stream
     public static void main(String[] args) {
         // List of Integer
         List<Integer> list = new ArrayList<>();

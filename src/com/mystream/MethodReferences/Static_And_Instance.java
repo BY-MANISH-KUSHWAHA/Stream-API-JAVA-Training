@@ -1,9 +1,9 @@
-package com.mystream;
+package com.mystream.MethodReferences;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MethodReferences {
+public class Static_And_Instance {
     public static int getLength(String str){
         return str.length();
     }
@@ -24,14 +24,14 @@ public class MethodReferences {
 
         System.out.println("General Method Reference");
         // General Static Methods:  Using MethodReferences used our own fnx
-        lst.stream().map(s -> MethodReferences.getLength(s)).forEach(System.out::println);
+        lst.stream().map(s -> Static_And_Instance.getLength(s)).forEach(System.out::println);
 
         System.out.println("Static Method Reference");
         // Static Method Reference
-        lst.stream().map(MethodReferences::getLength).forEach(System.out::println);
+        lst.stream().map(Static_And_Instance::getLength).forEach(System.out::println);
 
-        //
-        MethodReferences obj = new MethodReferences();
+        //General Static Mthod
+        Static_And_Instance obj = new Static_And_Instance();
         System.out.println("Using Object -> General Method Reference");
         lst.stream().map(s -> obj.getLength(s)).forEach(System.out::println);
 
