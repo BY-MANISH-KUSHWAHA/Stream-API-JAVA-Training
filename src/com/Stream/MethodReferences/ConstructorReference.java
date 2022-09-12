@@ -1,4 +1,4 @@
-package com.mystream.MethodReferences;
+package com.Stream.MethodReferences;
 
 import java.util.ArrayList;
 import java.util.List;

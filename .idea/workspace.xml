@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0017">
-      <change afterPath="$PROJECT_DIR$/src/com/mystream/IntermediateOperations/SlicingOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mystream/MethodReferences/ArbitaryReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mystream/MethodReferences/ConstructorReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mystream/TerminalOperation/MatchingOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0019">
+      <change afterPath="$PROJECT_DIR$/src/com/Stream/Optional/OptionalStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/FindingOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mystream/IntermediateOperations/FilteringOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mystream/IntermediateOperations/FilteringOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mystream/MethodReferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mystream/MethodReferences/Static_And_Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/IntermediateOperations/FilteringOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/IntermediateOperations/FilteringOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/IntermediateOperations/MappingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/IntermediateOperations/MappingOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/IntermediateOperations/SlicingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/IntermediateOperations/SlicingOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/MethodReferences/ArbitaryReferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/MethodReferences/ArbitaryReferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/MethodReferences/ConstructorReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/MethodReferences/ConstructorReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/MethodReferences/Static_And_Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/MethodReferences/Static_And_Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mystream/TerminalOperation/MatchingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/MatchingOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662710589708</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Stream_API-Update-0019">
+      <created>1662957639781</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662957639781</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +244,7 @@
     <MESSAGE value="Stream_API-Update-0015" />
     <MESSAGE value="Stream_API-Update-0016" />
     <MESSAGE value="Stream_API-Update-0017" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0017" />
+    <MESSAGE value="Stream_API-Update-0019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-0019" />
   </component>
 </project>

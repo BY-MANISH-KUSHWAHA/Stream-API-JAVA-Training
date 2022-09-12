@@ -1,4 +1,4 @@
-package com.mystream.TerminalOperation;
+package com.Stream.TerminalOperation;
 
 import java.util.ArrayList;
 import java.util.List;

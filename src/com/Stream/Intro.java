@@ -1,6 +1,4 @@
-package com.mystream;
-
-import com.predicateFunctionalInterface.Person;
+package com.Stream;
 
 import java.util.ArrayList;
 import java.util.List;

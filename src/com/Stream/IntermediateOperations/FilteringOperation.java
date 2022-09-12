@@ -1,4 +1,4 @@
-package com.mystream.IntermediateOperations;
+package com.Stream.IntermediateOperations;
 
 import com.predicateFunctionalInterface.Person;
 
