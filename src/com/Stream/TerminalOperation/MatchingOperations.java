@@ -34,6 +34,7 @@ public class MatchingOperations {
         //      -> if the stream is empty => true
         //      -> If single element matched criteria => False
 
+
         // 1. Check if a Person belong to India
         boolean anyIndian = persons.stream().anyMatch(s -> s.getCountry().equals("India"));
         System.out.println("Any Indian:"+anyIndian);

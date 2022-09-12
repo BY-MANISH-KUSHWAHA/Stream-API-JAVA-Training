@@ -34,7 +34,7 @@ public class FindingOperations {
         System.out.println("------------- Find ANY llr processing multiple tread -----------------");
         Optional<Person> perany = persons.stream().filter(p -> p.getCountry().equals("UK")).findAny();
 
-        if(per.isPresent()){
+        if(perany.isPresent()){
             System.out.println("Optional Object:"+perany+"\n");
         }
         else{

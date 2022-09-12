@@ -35,5 +35,14 @@ public class Person {
         return country;
     }
 
+    @Override
+    public String toString(){
+        return "Person{"+
+                "Name:'"+name+'\''+
+                ", Age:"+age+
+                ", Country:'"+country+'\''+
+                "}";
+    }
+
 
 }
