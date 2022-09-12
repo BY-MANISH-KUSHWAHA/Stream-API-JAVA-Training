@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-00124">
-      <change afterPath="$PROJECT_DIR$/src/com/Stream/ImmutableOperations/ReductionOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stream_Intermediate_Operation_Assessment/Form_Question_Distinct.java" afterDir="false" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-00125">
+      <change afterPath="$PROJECT_DIR$/src/com/Stream/Collectors/CollectionsOperations/CollectionOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Stream/IntermediateOperations/SlicingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/IntermediateOperations/SlicingOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/FindingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/FindingOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/MatchingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/MatchingOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/predicateFunctionalInterface/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662966783420</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Stream_API-Update-00125">
+      <created>1662980274400</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662980274400</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +283,7 @@
     <MESSAGE value="Stream_API-Update-00122" />
     <MESSAGE value="Stream_API-Update-00123" />
     <MESSAGE value="Stream_API-Update-00124" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-00124" />
+    <MESSAGE value="Stream_API-Update-00125" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-00125" />
   </component>
 </project>
