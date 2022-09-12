@@ -42,3 +42,24 @@ public class Static_And_Instance {
 
     }
 }
+
+/*
+Static Method Reference: ClassName::StaticMethodName
+
+Instance Method Reference: System.out::println
+
+Arbitrary object Reference: ClassName::InstanceMethodName (InstanceMethodName means method without "()" )
+    example: Company::GetYear{Right} ||| Comapny::GetYear() {X}
+--------------------------------------------------
+Constructor Reference:
+
+    Example: If we have Only Student Name and we want to make student Object using their name
+
+    We can use the method reference with the new keyword, which is called as Constructor reference.
+        List studentList = studentNames.stream().map(Student::new)
+                .collect(Collectors.toList());
+    equivalent lambda expression
+        List studentList = studentNames.stream()
+                .map(name -> new Student(name)).collect(Collectors.toList());
+
+ */

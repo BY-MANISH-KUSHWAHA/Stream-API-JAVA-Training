@@ -1,0 +1,168 @@
+1. Static Method Reference:
+
+        Static Method Reference is nothing but using the class name to call the static method and the Syntax for is
+
+        ClassName::StaticMethodName
+
+        For Example, Suppose we have a list of integers, and we need to find the square root of each element, then we can simply use the static method sqrt() present in the Math class.
+
+        List integerList = new ArrayList();
+        integerList.add(4);
+        integerList.add(9);
+        integerList.add(16);
+        integerList.add(25);
+
+        integerList.stream().map(Math::sqrt).forEach(System.out::println);
+        The method reference Math::sqrt refers to that method as the implementation of the Function interface. The above code is equivalent to the below lambda expression.
+
+        integerList.stream().map(i -> Math.sqrt(i)).forEach(i -> System.out.println(i));
+        Rather than using the predefined classes and methods, let’s use our class and use static method reference in it.
+
+        import java.util.function.Function;
+
+        class Welcome
+        {
+           public static String greetMessage(String message)
+           {
+              return "Welcome " + message;
+           }
+        }
+
+        public class Greeting
+        {
+           public static void main(String[] args)
+           {
+              Function<String, String> message = Welcome::greetMessage;
+              System.out.println(message.apply("JavaInterviewpoint"));
+           }
+        }
+        The Welcome class has the static method greetMessage, We can simply call it using Welcome::greetMessage
+
+2. Instance Method Reference
+
+        Even in the previous code snippet, we have used Instance method reference.
+
+        System.out::println
+
+        Where out is the object of PrintStream class present in the System class, the context will supply the arguments to the method.
+
+        Let’s call the sumOfNumber method using the instance method reference
+
+        package com.javainterviewpoint;
+
+        import java.util.function.BiFunction;
+
+        class Sum
+        {
+           public int sumOfNumbers(int a, int b)
+           {
+              return a + b;
+           }
+        }
+
+        public class Addition
+        {
+           public static void main(String[] args)
+           {
+              Sum s = new Sum();
+              BiFunction<Integer, Integer, Integer> add = s::sumOfNumbers;
+              System.out.println(add.apply(10, 20));
+           }
+        }
+3. Arbitrary object Reference
+
+        Arbitrary object Instance method reference is one of the most commonly used method references, and we can call the instance method of the class using the class name directly.
+
+        Syntax: ClassName::InstanceMethodName
+
+        For example, if we want to convert a string to uppercase, then we can use the toUpperCase() method of the String class.
+
+        String value = "hello";
+        Stream.of(value).map(String::toUpperCase).forEach(System.out::println);
+        The equivalent lambda expression would be
+
+        Stream.of(value).map(v -> v.toUpperCase()).forEach(v -> System.out.println(v));
+        Let’s try to sort out the elements of a list
+
+        package com.javainterviewpoint;
+
+        import java.util.Arrays;
+        import java.util.List;
+        import java.util.stream.Collectors;
+
+        public class Sort
+        {
+           public static void main(String[] args)
+           {
+              List userList = Arrays.asList("Jones", "Alice", "Andy", "Zidane",
+                    "Bob");
+              List sortedUserList = userList.stream()
+                    .sorted(String::compareToIgnoreCase).collect(Collectors.toList());
+              System.out.println(sortedUserList);
+           }
+        }
+4. Constructor Reference
+
+        Constructor Reference is one of the most useful method references. It enables us to instantiate an object using a method reference as part of a stream.
+
+        Before getting into the details, let’s start with a simple scenario
+
+        Say for example, if we have a list of Students and we need the list of student name only, then we can use either of the below approaches
+
+        package com.javainterviewpoint;
+
+        public class Student
+        {
+           private int id;
+           private String name;
+
+           public Student()
+           {
+              super();
+           }
+           public Student(String name)
+           {
+              super();
+              this.name = name;
+           }
+
+           public int getId()
+           {
+              return id;
+           }
+           public void setId(int id)
+           {
+              this.id = id;
+           }
+
+           public String getName()
+           {
+              return name;
+           }
+           public void setName(String name)
+           {
+              this.name = name;
+           }
+        }
+
+        List studentList = new ArrayList();
+        Student s1 = new Student(1, "Bob");
+        Student s2 = new Student(2, "Alice");
+        studentList.add(s1);
+        studentList.add(s2);
+
+        List studentNames = studentList.stream().map(Student::getName)
+             .collect(Collectors.toList());
+        or we can use lambda expressions
+
+        List studentNames = studentList.stream().map(s -> s.getName())
+           .collect(Collectors.toList());
+        What if we need the other way around? What if we have a list of String and we need a list of Student objects?
+        We can use the method reference with the new keyword, which is called as Constructor reference.
+
+        List studentList = studentNames.stream().map(Student::new)
+                    .collect(Collectors.toList());
+        equivalent lambda expression
+
+        List studentList = studentNames.stream()
+                    .map(name -> new Student(name)).collect(Collectors.toList());

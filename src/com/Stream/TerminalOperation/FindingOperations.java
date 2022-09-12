@@ -12,12 +12,17 @@ public class FindingOperations {
         persons.add(new Person("Manish",29,"India"));
         persons.add(new Person("Ravi",21,"Dubia"));
         persons.add(new Person("Kusum",18,"USA"));
-        persons.add(new Person("Zoya",17,"UK"));
-        persons.add(new Person("Maya",16,"France"));
 
+        persons.add(new Person("Maya",16,"UK"));
+        persons.add(new Person("Maya1",16,"UK"));
+        persons.add(new Person("Maya2",16,"UK"));
+        persons.add(new Person("Zoya",17,"UK"));
+
+        System.out.println("Sample output without Optional");
         persons.stream().filter( p -> p.getCountry().equals("UK")).forEach(System.out::println);
 
-        Optional<Person> per = persons.stream().filter(p -> p.getCountry().equals("India")).findFirst();
+        System.out.println("------------- Find First -----------------");
+        Optional<Person> per = persons.stream().filter(p -> p.getCountry().equals("UK")).findFirst();
 
         if(per.isPresent()){
             System.out.println("Optional Object:"+per+"\n"+"Person Object(toString):"+per.get());
@@ -25,6 +30,18 @@ public class FindingOperations {
         else{
             System.out.println("No Data find");
         }
+
+        System.out.println("------------- Find ANY llr processing multiple tread -----------------");
+        Optional<Person> perany = persons.stream().filter(p -> p.getCountry().equals("UK")).findAny();
+
+        if(per.isPresent()){
+            System.out.println("Optional Object:"+perany+"\n");
+        }
+        else{
+            System.out.println("No Data find");
+        }
+
+
     }
 }
 

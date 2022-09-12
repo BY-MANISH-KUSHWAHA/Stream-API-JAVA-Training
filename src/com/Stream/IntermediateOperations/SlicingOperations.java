@@ -14,6 +14,7 @@ public class SlicingOperations {
         names.add("Arya");
         names.add("Arjun");
         names.add("Manish");
+        // Slicing => (limit or skip) present
 
         System.out.println("Distinct-------");
         names.stream().distinct().forEach(System.out::println); // Print only Distinct/ Unique element from list

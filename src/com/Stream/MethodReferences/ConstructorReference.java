@@ -36,7 +36,7 @@ public class ConstructorReference {
         // Constructor Object Method Reference
         System.out.println("Company1::new");
         lst.stream().map(Company1::new ).forEach(System.out::println);
-        // System.out::println ==> Method Reference =Type=> {Arbitary Reference} (Public method) (not static)
+        // System.out::println ==> Method Reference =Type=> {Instance Method Reference} (Public method) (not static)
 
         System.out.println("name -> new Company1(name)");
         // Without Constructor Object Reference

@@ -26,8 +26,12 @@ public class OptionalStream {
         Person p1 = check.getPerson(32);
 
         System.out.println(p1);
+        //System.out.println(p1.getAge());
+
         try {
             p1.getAge();
+
+
         }
         catch(Exception e) {
             System.out.println("No Person found without Optional");
@@ -54,6 +58,7 @@ public class OptionalStream {
         // Empty()
         Optional<Person> p4 = check.getPersonOptional(2);
         // Pending
+
 
 
 
