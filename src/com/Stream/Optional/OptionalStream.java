@@ -11,6 +11,10 @@ public class OptionalStream {
         return personMap.get(personId);
     }
 
+    public Optional<Person> getPersonOptional(Integer personId) {
+        return Optional.ofNullable(personMap.get(personId));
+    }
+
     public static void addPerson(Integer personId,Person p1){
         personMap.put(personId,p1);
     }
@@ -38,7 +42,7 @@ public class OptionalStream {
 
         System.out.println("------- Using Optional Class ---------");
         // To overcome the Null point Exception:
-        Optional<Person> p3 = Optional.ofNullable(check.getPerson(2));
+        Optional<Person> p3 = check.getPersonOptional(2);
 
         if(p3.isPresent()){
             System.out.println(p3);
@@ -47,11 +51,20 @@ public class OptionalStream {
             System.out.println("No Person found ");
         }
 
+        // Empty()
+        Optional<Person> p4 = check.getPersonOptional(2);
+        // Pending
+
+
 
 
     }
 
 }
+
+// Empty() Method ==> whether optional object does contain a null value or not
+// Of() Method
+// ofNullable()
 
 class Person {
     private String name;

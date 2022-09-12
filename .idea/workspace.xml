@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-00121" />
+    <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-00122">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Stream/Optional/OptionalStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/Optional/OptionalStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/FindingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/FindingOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/MatchingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stream/TerminalOperation/MatchingOperations.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662960349841</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Stream_API-Update-00122">
+      <created>1662960519954</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662960519954</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +261,7 @@
     <MESSAGE value="Stream_API-Update-0019" />
     <MESSAGE value="Stream_API-Update-00120" />
     <MESSAGE value="Stream_API-Update-00121" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-00121" />
+    <MESSAGE value="Stream_API-Update-00122" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream_API-Update-00122" />
   </component>
 </project>
