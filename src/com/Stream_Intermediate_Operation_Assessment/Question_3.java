@@ -3,6 +3,7 @@ package com.Stream_Intermediate_Operation_Assessment;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Question_3 {
 
@@ -23,7 +24,7 @@ public class Question_3 {
         String Input = "How are You Manish kumar Kushwaha.";
 
 
-        List<String> InputList = Arrays.stream(Input.split(" ")).toList();
+        List<String> InputList = Arrays.stream(Input.split(" ")).collect(Collectors.toList());
 
         //String[] inputWords = inputString.split(" ");
         //String output = Arrays.stream(inputString.split("\\s+")).map(t -> t.substring(0, 1)).collect(Collectors.joining(""));

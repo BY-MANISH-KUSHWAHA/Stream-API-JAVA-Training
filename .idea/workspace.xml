@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64f6d2bb-3551-4ebb-983b-7884c07c17f2" name="Changes" comment="Stream_API-Update-0017">
-      <change afterPath="$PROJECT_DIR$/src/com/Stream_Intermediate_Operation_Assessment/Question_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stream_Intermediate_Operation_Assessment/Question_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Stream_Intermediate_Operation_Assessment/Question_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mystream/MethodReferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Function_Interface_Assessment/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Function_Interface_Assessment/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stream_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stream_API.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +40,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/manishkushwaha/IdeaProjects/Stream_API/src/com/predicateFunctionalInterface&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -63,6 +61,8 @@
       <workItem from="1662608134912" duration="19961000" />
       <workItem from="1662691878936" duration="673000" />
       <workItem from="1662692757299" duration="19264000" />
+      <workItem from="1662952361323" duration="240000" />
+      <workItem from="1662952615934" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="Stream_API-Update-0001">
       <created>1662608168539</created>
