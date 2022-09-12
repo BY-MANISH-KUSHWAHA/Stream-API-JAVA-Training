@@ -34,6 +34,13 @@ public class OptionalStream {
         Optional<Person> p3 = Optional.ofNullable(check.getPerson(2));
 
 
+        try {
+            p1.getAge();
+        }
+        catch(Exception e) {
+            System.out.println("No Person found without Optional");
+        }
+
         if(p3.isPresent()){
             System.out.println(p3);
         }
