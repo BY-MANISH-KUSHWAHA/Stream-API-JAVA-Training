@@ -7,8 +7,9 @@ public class Stream1 {
     public static void main(String[] args) {
         System.out.println("Printing General Stream");
         Stream.of(1,2,3,4,5,6,7).forEach(num -> System.out.println(num + ", ThreadName:"+ Thread.currentThread().getName()+", ThreadId:"+Thread.currentThread().getId()));
+        System.out.println("-------------------------------");
         System.out.println("Parallel Stream");
-        Stream.of(1,2,3,4,5,6,7)
+        Stream.of(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30)
                 .parallel()
                 .forEach(num -> System.out.println(num + ", ThreadName:"+ Thread.currentThread().getName()+", ThreadId:"+Thread.currentThread().getId()));
 
