@@ -24,6 +24,15 @@ public class CollectionOperations {
         LinkedList<String> llnamePerson = persons.stream().map(s -> s.getName()).collect(Collectors.toCollection(LinkedList::new));
         System.out.println("ll Person Name: "+llnamePerson);
 
+        // TreeSet
+        TreeSet<String> tsnamePerson = persons.stream().map(s -> s.getName()).collect(Collectors.toCollection(TreeSet::new));
+        System.out.println("ts Person Name: "+tsnamePerson);
+
+        // ArrayList
+        ArrayList<String> alnamePerson = persons.stream().map(s -> s.getName()).collect(Collectors.toCollection(ArrayList::new));
+        System.out.println("al Person Name: "+alnamePerson);
+
+
         // Map
         Map<String,Integer> mapnamePerson = persons.stream().collect(Collectors.toMap(s->s.getName(),s->s.getSalary()));
         System.out.println("Map Person Name with Salary: "+mapnamePerson);

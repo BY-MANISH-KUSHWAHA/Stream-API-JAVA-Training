@@ -84,6 +84,12 @@ public class ReductionOperations {
         System.out.println("Last Min Num (Max):"+LastminNum);
         // Reverse Order fist node => 0->1->2->3 => 0
 
+        /*
+        Both immutable and constant are keywords that can be used on state variables to restrict
+        modifications to their state. The difference is that constant variables can never be
+        changed after compilation, while immutable variables can be set within the constructor.
+         */
+
 
 
 
