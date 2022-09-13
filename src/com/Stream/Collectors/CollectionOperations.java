@@ -1,4 +1,4 @@
-package com.Stream.Collectors.CollectionsOperations;
+package com.Stream.Collectors;
 import java.util.*;
 import java.util.stream.Collectors;
 
