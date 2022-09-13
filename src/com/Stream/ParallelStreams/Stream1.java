@@ -13,6 +13,15 @@ public class Stream1 {
                 .parallel()
                 .forEach(num -> System.out.println(num + ", ThreadName:"+ Thread.currentThread().getName()+", ThreadId:"+Thread.currentThread().getId()));
 
+        // When to Run Parallel Streams?
+        // 1. Splitting is not more expensive than doing the work
+        // 2. Tak dispatch/ management costs between the threads is not too high.
+        // 3. The result combination cost must not be high.
+        // 4. NQ formula :-> N*Q !> 10000 {not more than} (Where N is Number of data items, Q is Amount of work per item)
+        /*
+        Example: 5 lakhs element -> 20K contains in 1 split -> no. of split 25.
+        */
+
 
     }
 }
