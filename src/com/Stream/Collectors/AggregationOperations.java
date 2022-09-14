@@ -28,7 +28,7 @@ public class AggregationOperations {
         long totalSalary = persons.stream().collect(Collectors.summingLong(emp -> emp.salary));
         System.out.println("Total Salary: "+totalSalary);
 
-        // ToIntFunction
+        // Avg
         double averageSalary = persons.stream().collect(Collectors.averagingInt(emp -> emp.salary));// Salary in double
         double DoubleAverageSalary = persons.stream().collect(Collectors.averagingDouble(emp -> emp.salary));// Salary in double
         System.out.println("Avg Salary: "+averageSalary);
